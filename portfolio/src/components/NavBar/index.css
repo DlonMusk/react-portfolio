@@ -1,11 +1,16 @@
-.container {
-    height: 10vh;
-    width: inherit;
-    background-color: black;
+.nav {
     position: sticky;
-    display: flex;
-    justify-content: center;
+    top: 0;
     padding: 0;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    width: inherit;
+    background-color: #e63946;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    border-bottom: 2px black solid;
 }
 
 .nav-links {
@@ -13,12 +18,32 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    color: #f1faee;
 }
 
+
 .nav-links * {
-    color: green;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 0 10px 0 10px;
+    color: #f1faee;
+    font-size: 18px;
 }
+
+.nav-item>a:hover{
+    color: #f1faee;
+    transform: scale(1.2);
+}
+
+
+.nav-item>a:visited:hover{
+    color: black;
+}
+
+.nav-item>a:visited{
+    color: #f1faee;
+}
+
+
+
+

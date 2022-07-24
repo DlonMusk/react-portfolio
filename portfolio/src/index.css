@@ -1,4 +1,7 @@
-body {
-  margin: 0;
+#root{
+    background-color: aquamarine;
 }
 
+*, *::after, *::before{
+    box-sizing: border-box;
+}

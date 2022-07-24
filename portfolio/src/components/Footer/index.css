@@ -1,0 +1,26 @@
+.footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8dadc;
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+}
+
+.link{
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+
+.email{
+    border-right: none;
+}

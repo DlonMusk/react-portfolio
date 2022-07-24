@@ -1,0 +1,84 @@
+.main {
+    background-color: #f1faee;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container,
+.about-me-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.name-container {
+    padding-top: 75px;
+}
+
+.about-me-container {
+    padding-top: 0;
+    width: 80%;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.description {}
+
+.spinner{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-sector{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    mix-blend-mode: overlay;
+    animation: rotate var(--duration) var(--timing) infinite;
+}
+
+.spinner-one{
+    border-left-color: #e63946;
+    --duration: 2s;
+    --timing: ease-in;
+}
+
+.spinner-two{
+    border-right-color: #a8dadc;
+    --duration: 1.3s;
+    --timing: ease-in-out;
+}
+
+.spinner-three{
+    border-top-color: #1d3557;
+    --duration: 1s;
+    --timing: ease-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.profile-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
