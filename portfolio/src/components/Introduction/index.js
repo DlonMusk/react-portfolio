@@ -17,7 +17,7 @@ function Introduction() {
             </div>
             <div className="about-me-container">
                 <h1 className="about-me">ABOUT ME</h1>
-                <p className="description">This is where i will put all my text about myself. it will be a bit less than one paragraph. should keep it short so that its not a book.</p>
+                <p className="description">I feel strongly about continuously improving my skill set, by utilizing personal goal setting techniques to further my education. On my journey to become a full stack developer, I proved to be a fast learner, a strong team player, all while consistently fine-tuning my problem solving skills.</p>
             </div>
         </div>
     );

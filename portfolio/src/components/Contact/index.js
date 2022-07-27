@@ -1,5 +1,5 @@
 import './index.css';
-import React, {useState, useRef} from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 function Contact() {
@@ -15,7 +15,7 @@ function Contact() {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset();
+        e.target.reset();
     };
 
     return <div className='contact'>
@@ -26,7 +26,7 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail}>
             <div className="m-3">
                 <label for="exampleFormControlInput1" className="form-label">Subject</label>
-                <input type="text" name="subject" className="form-control" id="exampleFormControlInput1"/>
+                <input type="text" name="subject" className="form-control" id="exampleFormControlInput1" />
             </div>
             <div className="m-3">
                 <label for="exampleFormControlInput2" className="form-label">Name</label>

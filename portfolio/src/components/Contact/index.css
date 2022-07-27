@@ -16,3 +16,14 @@
 .contact-info p{
     font-family:'Times New Roman', Times, serif
 }
+
+@media screen and (min-width: 700px) {
+    .contact {
+        margin: 0 auto;
+        width: 700px;
+    }
+    .contact-info {
+        text-align: center;
+        width: inherit
+    }
+}
