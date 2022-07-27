@@ -5,7 +5,6 @@
     margin: 0;
     height: 10vh;
     width: 100%;
-    width: inherit;
     background-color: #e63946;
     display: flex;
     justify-content: space-around;
@@ -24,7 +23,6 @@
     color: #f1faee;
 }
 
-
 .nav-links * {
     color: #f1faee;
     font-size: 18px;
@@ -35,7 +33,6 @@
     transform: scale(1.2);
 }
 
-
 .nav-item>a:visited:hover{
     color: black;
 }
@@ -44,6 +41,12 @@
     color: #f1faee;
 }
 
+.nav-item>a:focus{
+    transform: scale(1.2);
+    color: black
+}
 
-
-
+.active{
+    color: black !important;
+    transform: scale(1.2) !important;
+}
