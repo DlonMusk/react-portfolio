@@ -26,10 +26,9 @@ function App() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-      {renderPage()}
+        {renderPage()}
       <Footer />
     </div>
-
   );
 }
 
