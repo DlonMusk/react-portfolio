@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.40627b18.css",
+    "main.js": "/react-portfolio/static/js/main.b525e3e3.js",
+    "static/media/stockIt.png": "/react-portfolio/static/media/stockIt.c7b6f71b2ed3a4c5db86.png",
+    "static/media/Trivia.png": "/react-portfolio/static/media/Trivia.79212542d33d51851cc2.png",
+    "static/media/WeatherApp.png": "/react-portfolio/static/media/WeatherApp.f10d55240854a841c0d1.png",
+    "static/media/DylanPhoto.png": "/react-portfolio/static/media/DylanPhoto.f3128e9a0df616893ddc.png",
+    "static/media/Schedule.png": "/react-portfolio/static/media/Schedule.813f3332bac8d05640aa.png",
+    "static/media/CodeQuiz.png": "/react-portfolio/static/media/CodeQuiz.9d14bf4b10023418cc46.png",
+    "static/media/TechBlog.png": "/react-portfolio/static/media/TechBlog.4c9cb2bb63fd6760d953.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.40627b18.css.map": "/react-portfolio/static/css/main.40627b18.css.map",
+    "main.b525e3e3.js.map": "/react-portfolio/static/js/main.b525e3e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40627b18.css",
+    "static/js/main.b525e3e3.js"
+  ]
+}
