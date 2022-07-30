@@ -29,12 +29,12 @@
 }
 
 .nav-item>a:hover{
-    color: #f1faee;
     transform: scale(1.2);
 }
 
 .nav-item>a:visited:hover{
     color: black;
+    transform: scale(1.2);
 }
 
 .nav-item>a:visited{

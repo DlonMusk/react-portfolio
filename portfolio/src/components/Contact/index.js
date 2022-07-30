@@ -19,26 +19,26 @@ function Contact() {
     };
 
     return <div className='contact'>
-        <div className='my-3 contact-info text-center'>
+        <div className='contact-info text-center'>
             <p className='p-3'>Email: knight777@hotmail.ca</p>
             <p>Phone: (226) 962-4207</p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
             <div className="m-3">
                 <label for="exampleFormControlInput1" className="form-label">Subject</label>
-                <input type="text" name="subject" className="form-control" id="exampleFormControlInput1" />
+                <input type="text" name="subject" required className="form-control" id="exampleFormControlInput1" />
             </div>
             <div className="m-3">
                 <label for="exampleFormControlInput2" className="form-label">Name</label>
-                <input type="text" name="name" className="form-control" id="exampleFormControlInput2" />
+                <input type="text" name="name" required className="form-control" id="exampleFormControlInput2" />
             </div>
             <div className="m-3">
                 <label for="exampleFormControlInput3" className="form-label">Your Email</label>
-                <input type="email" name="email" className="form-control" id="exampleFormControlInput3" placeholder="email@example.com" />
+                <input type="email" name="email" required className="form-control" id="exampleFormControlInput3" placeholder="email@example.com" />
             </div>
             <div className="m-3">
                 <label for="exampleFormControlTextarea4" className="form-label">Content</label>
-                <textarea type="text" name='message' className="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                <textarea type="text" name='message' required className="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
             </div>
             <div className='m-3 text-center'>
                 <button type="submit" className="btn submit-btn" value="Send Email">Send Email</button>

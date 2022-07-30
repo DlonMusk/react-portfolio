@@ -87,4 +87,8 @@
         width: 700px;
         font-size: 20px;
     }
+
+    .name-container {
+        padding-top: 130px;
+    }
 }

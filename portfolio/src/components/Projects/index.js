@@ -15,7 +15,10 @@ function Projects() {
             <div className="cards">
                 <div className="card">
                     <div className="card-body">
-                        <img className="project-img" src={triviaImg} alt="Trivia Game App" />
+
+                        <div className="img-animator">
+                            <img className="project-img" src={triviaImg} alt="Trivia Game App" />
+                        </div>
                         <h5 className="card-title">VS Trivia game</h5>
                         <p className="card-text">Movie trivia game to test your knowledge in multiple categories</p>
                         <div className="buttons-div">
