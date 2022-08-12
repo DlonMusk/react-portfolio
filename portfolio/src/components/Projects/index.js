@@ -6,16 +6,26 @@ const techBlog = require('../../Assets/TechBlog.png');
 const stockIt = require('../../Assets/stockIt.png');
 const weatherApp = require('../../Assets/WeatherApp.png');
 const codeQuiz = require('../../Assets/CodeQuiz.png');
-const Schedule = require('../../Assets/Schedule.png');
+const Locally = require('../../Assets/Locally.png');
 
 
 function Projects() {
     return (
         <div className="projects container-fluid">
             <div className="cards">
+            <div className="card">
+                    <div className="card-body">
+                        <img className="project-img" src={Locally} alt="Locally App img" />
+                        <h5 className="card-title">Locally App</h5>
+                        <p className="card-text">A Fullstack web application to buy and sell products locally</p>
+                        <div className="buttons-div">
+                            <a type="button" className="btn git-btn" href="https://github.com/DlonMusk/Locally">Git Hub</a>
+                            <a type="button" className="btn deploy-btn" href="https://dry-badlands-98649.herokuapp.com/">Deployed</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="card">
                     <div className="card-body">
-
                         <div className="img-animator">
                             <img className="project-img" src={triviaImg} alt="Trivia Game App" />
                         </div>
@@ -68,17 +78,6 @@ function Projects() {
                         <div className="buttons-div">
                             <a type="button" className="btn git-btn" href="https://github.com/DlonMusk/code-quiz-challenge">Git Hub</a>
                             <a type="button" className="btn deploy-btn" href="https://dlonmusk.github.io/code-quiz-challenge/">Deployed</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-body">
-                        <img className="project-img" src={Schedule} alt="" />
-                        <h5 className="card-title">Scheduler App</h5>
-                        <p className="card-text">An App to schedule your day that will save the info on your browser so the information is always available</p>
-                        <div className="buttons-div">
-                            <a type="button" className="btn git-btn" href="https://github.com/DlonMusk/work-day-scheduler-challenge">Git Hub</a>
-                            <a type="button" className="btn deploy-btn" href="https://dlonmusk.github.io/work-day-scheduler-challenge/">Deployed</a>
                         </div>
                     </div>
                 </div>
