@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2446c85d.css",
-    "main.js": "/react-portfolio/static/js/main.ace0aa4d.js",
+    "main.js": "/react-portfolio/static/js/main.87c350b2.js",
     "static/media/stockIt.png": "/react-portfolio/static/media/stockIt.c7b6f71b2ed3a4c5db86.png",
     "static/media/Trivia.png": "/react-portfolio/static/media/Trivia.79212542d33d51851cc2.png",
+    "static/media/Locally.png": "/react-portfolio/static/media/Locally.5e28ba0f04f9486058c5.png",
     "static/media/WeatherApp.png": "/react-portfolio/static/media/WeatherApp.f10d55240854a841c0d1.png",
     "static/media/DylanPhoto.png": "/react-portfolio/static/media/DylanPhoto.f3128e9a0df616893ddc.png",
-    "static/media/Schedule.png": "/react-portfolio/static/media/Schedule.813f3332bac8d05640aa.png",
     "static/media/CodeQuiz.png": "/react-portfolio/static/media/CodeQuiz.9d14bf4b10023418cc46.png",
     "static/media/TechBlog.png": "/react-portfolio/static/media/TechBlog.4c9cb2bb63fd6760d953.png",
     "index.html": "/react-portfolio/index.html",
     "main.2446c85d.css.map": "/react-portfolio/static/css/main.2446c85d.css.map",
-    "main.ace0aa4d.js.map": "/react-portfolio/static/js/main.ace0aa4d.js.map"
+    "main.87c350b2.js.map": "/react-portfolio/static/js/main.87c350b2.js.map"
   },
   "entrypoints": [
     "static/css/main.2446c85d.css",
-    "static/js/main.ace0aa4d.js"
+    "static/js/main.87c350b2.js"
   ]
 }
